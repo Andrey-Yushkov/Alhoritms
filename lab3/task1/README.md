@@ -38,4 +38,4 @@
    
 `git clone https://github.com/Andrey-Yushkov/Alhoritms.git`   
 `cd algoritm/lab3/`  
-`python -m Task1.tests.testtask1`  
+`python -m Task1.tests.TestTask1`  
