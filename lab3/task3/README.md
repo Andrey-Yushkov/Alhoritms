@@ -41,4 +41,4 @@
    
 `git clone https://github.com/Andrey-Yushkov/Alhoritms.git`   
 `cd algoritm/lab3/`  
-`python -m Task3.tests.test_task3`
+`python -m Task3.tests.testtask3`
