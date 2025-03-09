@@ -3,7 +3,7 @@ from lab6.utils import  *
 from lab6.task1.src.task1 import main, operations
 
 
-class TestOperations(unittest.TestCase):
+class TestTask1(unittest.TestCase):
 
     def test_should_add_and_query_element(self):
         data = [
