@@ -7,10 +7,6 @@ sys.path.append(dname)
 os.chdir(dname)
 
 def optimal_sequence(n):
-    """
-    Вычисляет минимальное количество операций для достижения числа n из 1
-    и возвращает последовательность промежуточных значений.
-    """
     operations = [0] * (n + 1)
 
     for i in range(2, n + 1):
@@ -35,7 +31,7 @@ def optimal_sequence(n):
 
 
 def primitive_calculator_main():
-    n = file_read()[0][0]  # Чтение числа n
+    n = file_read()[0][0] 
     min_ops, sequence = optimal_sequence(n)
     file_write([min_ops, sequence])
 
