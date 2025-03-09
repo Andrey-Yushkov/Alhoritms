@@ -3,7 +3,7 @@ from lab6.utils import  *
 from lab6.task4.src.task4 import main, associative_array
 
 
-class TestAssociativeArray(unittest.TestCase):
+class Task4(unittest.TestCase):
 
     def test_should_put_and_get_values(self):
         commands = [
