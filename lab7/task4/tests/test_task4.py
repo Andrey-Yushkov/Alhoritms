@@ -3,7 +3,7 @@ import random
 from lab7.task4.src.task4 import sample_main
 
 
-class TestLongestCommonSubsequence(unittest.TestCase):
+class TestTask4(unittest.TestCase):
     def test_basic_case(self):
         input_data = ([2, 7, 5], [2, 5])
         expected_output = 2
