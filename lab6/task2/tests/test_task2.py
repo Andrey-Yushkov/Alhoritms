@@ -3,7 +3,7 @@ from lab6.utils import *
 from lab6.task2.src.task2 import main, phone_book
 
 
-class TestPhoneBook(unittest.TestCase):
+class TestTask2(unittest.TestCase):
 
     def test_should_add_and_find_number(self):
         data = [
